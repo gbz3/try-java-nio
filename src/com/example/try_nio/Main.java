@@ -6,7 +6,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println( "Test to Commit." );
+		System.out.println( "Test2" );
 
 	}
 
