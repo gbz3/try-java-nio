@@ -1,0 +1,16 @@
+<project name="try-java-nio" default="make" basedir="." >
+
+	<target name="make" >
+		<javac srcdir="src" destdir="classes" />
+	</target>
+
+	<target name="run" depends="make" >
+		<java classname="com.example.try_nio.Main" >
+			<classpath>
+				<pathelement path="classes" />
+			</classpath>
+		</java>
+	</target>
+
+</project>
+
